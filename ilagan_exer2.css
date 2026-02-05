@@ -218,3 +218,17 @@ html{
     right: 300px;
 }
 
+/*Footer*/
+.footer{
+    margin: 0 auto;
+    padding: 10px;
+    padding-right: 180px;
+    padding-left: 180px;
+    font-family: 'cambo';
+    color: #5B88B2;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20px;
+}
