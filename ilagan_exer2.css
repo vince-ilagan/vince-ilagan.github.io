@@ -3,7 +3,17 @@
 @font-face { font-family: 'days-one'; src: url(fonts/DaysOne-Regular.ttf); }
 @font-face { font-family: 'racing'; src: url(fonts/RacingSansOne-Regular.ttf); }
 
-.main {
+html, body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.main{
     margin: 0;
     padding: 0;
     background-color: #000000;
@@ -11,13 +21,14 @@
     overflow-x: hidden;
 }
 
-#main-photo {
+#main-photo{
     position: absolute;
     width: 1920px;
     height: 1080px;
     z-index: 2;
 }
 
+/*Front Page*/
 .front{
     position: relative;
     width: 100vw;
@@ -82,3 +93,63 @@
     border-radius: 8px;
 }
 
+/*Second Page*/
+.skills{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.skills-title{
+    position: absolute;
+    font-family: 'racing';
+    line-height: 80%;
+    font-size: 80px;
+}
+
+.skills-title.left{
+    text-align: left;
+    top: 5px;
+    left: 80px;
+    color: #5b88b2
+}
+
+.skills-title.right{
+    text-align: right;
+    top: 5px;
+    right: 80px;
+    color: #fbf9e4;
+}
+
+#left-rectangle{
+    position: absolute;
+    top: -80px;
+    z-index: 1;
+}
+
+#logos{
+    position: absolute;
+    z-index: 3;
+    top: -80px;
+    left: -30px;
+}
+
+.soft-skills{
+    position: absolute;
+    bottom: 170px;
+    right: 100px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-family: 'days-one';
+    font-size: 64px;
+    color: #5b88b2;
+    text-align: right;
+}
+
+#skills-button{
+    position: absolute;
+    bottom: 50px;
+    right: 100px;
+}
