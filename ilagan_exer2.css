@@ -153,3 +153,68 @@ html{
     bottom: 50px;
     right: 100px;
 }
+
+/*Third Page*/
+.prev-work{
+    position: relative;
+    background-color: #122C4F;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.prevwork-title{
+    position: absolute;
+    font-family: 'racing';
+    font-size: 100px;
+    color: #5B88B2;
+    top: -30px;
+    left: 80px;
+}
+
+#rect2{
+    position: absolute;
+    top: -90px;
+    z-index: 1;
+}
+
+.projects{
+    position: absolute;
+    display: flex;
+    top: 275px;
+    left: 100px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    gap: 60px;
+}
+
+#taho, #store{
+    width: 820px;
+    height: 461px;
+    object-fit: cover;
+    display: block;
+}
+
+#prevwork-button{
+    position: absolute;
+    top: 180px;
+    left: 80px;
+}
+
+.proj-names{
+    position: absolute;
+    font-family: 'days-one';
+    font-size: 60px;
+    bottom: 30px;
+}
+
+.proj-names.taho{
+    left: 400px;
+}
+
+.proj-names.store{
+    right: 300px;
+}
+
